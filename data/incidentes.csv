@@ -1,6 +1,6 @@
 id,data,tipo,criticidade,status
-1,2026-01-10,Phishing,Alta,Resolvido
-2,2026-02-12,Vazamento,Critica,Resolvido
-3,2026-03-10,Malware,Media,Analise
-4,2026-04-11,Ransomware,Alta,Resolvido
-5,2026-05-21,Acesso Indevido,Baixa,Resolvido
+1,2026-01-10,Vazamento de Dados,Alta,Encerrado
+2,2026-02-15,Acesso Indevido,Média,Em Análise
+3,2026-03-20,Phishing,Alta,Encerrado
+4,2026-04-05,Perda de Equipamento,Baixa,Monitoramento
+5,2026-05-10,Erro Humano,Média,Encerrado
