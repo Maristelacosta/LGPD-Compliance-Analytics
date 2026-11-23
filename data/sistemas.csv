@@ -1,6 +1,6 @@
 id,sistema,conforme_lgpd
-1,ERP,Sim
-2,CRM,Sim
-3,RH,Não
-4,Portal do Cliente,Sim
-5,Financeiro,Não
+1,ERP,SIM
+2,CRM,SIM
+3,RH,NÃO
+4,Portal do Cliente,SIM
+5,Financeiro,NÃO
