@@ -64,6 +64,147 @@ O dashboard foi desenvolvido para monitorar métricas relacionadas à privacidad
 
 ## 🛠️ Tecnologias Utilizadas
 
+## ⚙️ Instalação e Execução
+
+### Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado:
+
+- Python 3.10 ou superior
+- Git
+- Power BI Desktop
+- Jupyter Notebook ou JupyterLab
+- Visual Studio Code (opcional)
+
+---
+
+### 1️⃣ Clonar o Repositório
+
+```bash
+git clone https://github.com/Maristelacosta/LGPD-Compliance-Analytics.git
+```
+
+```bash
+cd LGPD-Compliance-Analytics
+```
+
+---
+
+### 2️⃣ Criar Ambiente Virtual
+
+Windows:
+
+```bash
+python -m venv venv
+```
+
+Ativar ambiente virtual:
+
+```bash
+venv\Scripts\activate
+```
+
+Linux/Mac:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Instalar Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+Caso o arquivo ainda não exista:
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly streamlit jupyter
+```
+
+---
+
+### 4️⃣ Executar os Notebooks
+
+Inicie o Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Abra os arquivos da pasta:
+
+```text
+notebooks/
+```
+
+e execute as análises.
+
+---
+
+### 5️⃣ Executar a Aplicação Streamlit
+
+Na pasta principal do projeto:
+
+```bash
+streamlit run app/app.py
+```
+
+A aplicação será disponibilizada em:
+
+```text
+http://localhost:8501
+```
+
+---
+
+### 6️⃣ Abrir o Dashboard Power BI
+
+Abra o arquivo:
+
+```text
+dashboard/LGPD_Compliance.pbix
+```
+
+no Power BI Desktop.
+
+---
+
+### 7️⃣ Estrutura dos Dados
+
+Os datasets utilizados encontram-se na pasta:
+
+```text
+data/
+```
+
+Arquivos:
+
+```text
+titulares.csv
+incidentes.csv
+solicitacoes.csv
+sistemas.csv
+```
+
+Caso deseje utilizar dados próprios, mantenha a mesma estrutura de colunas para garantir compatibilidade com as análises e dashboards.
+
+---
+
+### ✅ Verificação da Instalação
+
+Se tudo estiver correto, você deverá conseguir:
+
+- Executar os notebooks Python
+- Visualizar os gráficos analíticos
+- Abrir o dashboard Power BI
+- Executar a aplicação Streamlit
+- Gerar os indicadores de conformidade LGPD
+
+
 ### 📊 Business Intelligence
 
 - Power BI
