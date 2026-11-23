@@ -1,0 +1,1 @@
+print("LGPD Compliance Analytics")
