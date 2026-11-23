@@ -4,3 +4,4 @@ id,nome,tipo_dado,base_legal,setor
 3,Cliente C,Telefone,Consentimento,Vendas
 4,Cliente D,Endereco,Contrato,Logistica
 5,Cliente E,CPF,Obrigacao Legal,RH
+6,Cliente F,Dado Sensivel,Consentimento,Saude
