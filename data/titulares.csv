@@ -1,7 +1,7 @@
 id,nome,tipo_dado,base_legal,setor
-1,Cliente A,CPF,Contrato,Financeiro
-2,Cliente B,E-mail,Consentimento,Marketing
-3,Cliente C,Telefone,Consentimento,Vendas
-4,Cliente D,Endereco,Contrato,Logistica
-5,Cliente E,CPF,Obrigacao Legal,RH
-6,Cliente F,Dado Sensivel,Consentimento,Saude
+1,João Silva,CPF,Consentimento,RH
+2,Maria Souza,E-mail,Contrato,Financeiro
+3,Carlos Lima,Telefone,Legítimo Interesse,Comercial
+4,Ana Costa,CPF,Consentimento,TI
+5,Pedro Santos,E-mail,Contrato,Logística
+6,Juliana Alves,Telefone,Consentimento,Logística
