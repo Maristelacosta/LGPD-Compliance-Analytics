@@ -1,1 +1,6 @@
-
+id,nome,tipo_dado,base_legal,setor
+1,Cliente A,CPF,Contrato,Financeiro
+2,Cliente B,E-mail,Consentimento,Marketing
+3,Cliente C,Telefone,Consentimento,Vendas
+4,Cliente D,Endereco,Contrato,Logistica
+5,Cliente E,CPF,Obrigacao Legal,RH
