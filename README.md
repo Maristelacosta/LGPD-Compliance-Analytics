@@ -1,108 +1,159 @@
 # 🔐 LGPD Compliance Analytics Dashboard
 
-Projeto desenvolvido para monitoramento de indicadores de privacidade, proteção de dados e conformidade com a Lei Geral de Proteção de Dados (LGPD).
+Dashboard interativo desenvolvido para monitoramento de indicadores de privacidade, proteção de dados e conformidade com a Lei Geral de Proteção de Dados (LGPD).
 
-O objetivo é transformar dados relacionados à governança, segurança da informação e conformidade regulatória em indicadores estratégicos para apoio à tomada de decisão.
-
----
-
-## 🏢 Caso de Negócio
-
-A Lei Geral de Proteção de Dados (LGPD) exige que organizações adotem controles para garantir o tratamento adequado de dados pessoais, reduzindo riscos regulatórios, operacionais e reputacionais.
-
-Este projeto simula um ambiente corporativo de governança e privacidade de dados, permitindo monitorar indicadores estratégicos relacionados à conformidade, segurança da informação, gestão de riscos e direitos dos titulares.
-
-A solução utiliza Business Intelligence, Analytics e visualização de dados para fornecer informações que apoiam a tomada de decisão e programas de adequação à LGPD.
+O projeto transforma dados relacionados à governança, segurança da informação e compliance em indicadores estratégicos que apoiam a tomada de decisão baseada em dados.
 
 ---
 
-## 🎯 Objetivos do Projeto
+# 📌 Visão Geral
+
+A Lei Geral de Proteção de Dados (LGPD) exige que organizações implementem controles para proteger dados pessoais, reduzir riscos regulatórios e fortalecer a governança da informação.
+
+Este projeto simula um ambiente corporativo de privacidade e proteção de dados, disponibilizando uma aplicação em Streamlit para monitoramento de:
+
+- Titulares de dados
+- Bases legais
+- Sistemas corporativos
+- Incidentes de segurança
+- Solicitações dos titulares
+- Indicadores executivos de conformidade
+
+---
+
+# 🏢 Caso de Negócio
+
+Organizações precisam demonstrar conformidade regulatória de forma contínua.
+
+O LGPD Compliance Analytics centraliza indicadores estratégicos relacionados à proteção de dados pessoais, permitindo identificar riscos, monitorar incidentes e acompanhar o desempenho dos programas de adequação à LGPD.
+
+A solução foi construída utilizando conceitos de:
+
+- Governança de Dados
+- Business Intelligence
+- Data Analytics
+- Privacidade
+- Segurança da Informação
+- Compliance Regulatório
+
+---
+
+# 🎯 Objetivos do Projeto
 
 - Monitorar indicadores de conformidade LGPD.
-- Analisar incidentes de segurança.
-- Acompanhar solicitações dos titulares de dados.
-- Avaliar o nível de maturidade em governança de dados.
-- Gerar insights para gestão de riscos e compliance.
-- Apoiar auditorias e processos de adequação regulatória.
+- Avaliar sistemas aderentes à LGPD.
+- Acompanhar solicitações dos titulares.
+- Monitorar incidentes de segurança.
+- Identificar riscos de governança.
+- Apoiar auditorias internas.
+- Gerar insights para tomada de decisão.
 
 ---
 
-## 📊 Indicadores do Dashboard
+# 🚀 Funcionalidades Implementadas
 
-### 🔐 Indicadores de Conformidade
+## Dashboard Executivo
 
-- Compliance Score Geral
-- Nível de Conformidade por Área
-- Percentual de Sistemas Adequados
-- Percentual de Não Conformidades
+- KPIs executivos
+- Compliance Score
+- Indicadores de governança
+- Visão consolidada da conformidade
 
-### 👥 Indicadores de Dados Pessoais
+## Gestão de Titulares
 
-- Total de Titulares Cadastrados
-- Total de Dados Pessoais Tratados
-- Quantidade de Dados Sensíveis
-- Dados por Setor da Organização
+- Inventário de titulares
+- Visualização por setor
+- Visualização por base legal
+- Análise de dados pessoais tratados
+
+## Gestão de Incidentes
+
+- Monitoramento de incidentes
+- Classificação por criticidade
+- Controle de status
+
+## Sistemas Corporativos
+
+- Sistemas conformes
+- Sistemas não conformes
+- Indicador geral de conformidade
+
+## Direitos dos Titulares
+
+- Solicitações realizadas
+- Status de atendimento
+- Indicadores operacionais
+
+---
+
+# 📊 Indicadores Disponíveis
+
+## 🔒 Compliance
+
+- Percentual de Conformidade
+- Sistemas Conformes
+- Sistemas Não Conformes
+- Score Geral de Compliance
+
+## 👤 Titulares
+
+- Quantidade de Titulares
+- Dados por Setor
 - Dados por Base Legal
 
-### 🚨 Indicadores de Segurança
+## 🚨 Incidentes
 
-- Total de Incidentes de Segurança
+- Total de Incidentes
 - Incidentes por Criticidade
-- Incidentes por Tipo
-- Incidentes por Mês
-- Taxa de Resolução de Incidentes
+- Acompanhamento de Incidentes
 
-### 📋 Indicadores LGPD
+## 📄 Solicitações
 
-- Solicitações dos Titulares
-- Solicitações Concluídas
+- Total de Solicitações
 - Solicitações Pendentes
-- Tempo Médio de Atendimento
-- Solicitações por Tipo
-
-### 📈 Indicadores Executivos
-
-- Score Geral de Governança
-- Principais Riscos Identificados
-- Áreas com Maior Exposição
-- Tendência de Incidentes
-- Resumo Executivo de Conformidade
+- Solicitações Concluídas
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 📈 Resultados Obtidos
 
-### 📊 Business Intelligence
+O dashboard atualmente apresenta:
 
-- Power BI
-- Power Query
-- DAX
+- 👤 Titulares: 6
+- 🚨 Incidentes: 5
+- 💻 Sistemas: 5
+- 📄 Solicitações: 4
+- ✅ Conformidade Geral: 60%
 
-### 🗄️ Banco de Dados
+Além disso, o painel possibilita:
 
-- SQL
-- PostgreSQL
-- SQL Server
+- Filtros por setor
+- Visualização gráfica dos indicadores
+- Tabelas interativas
+- Monitoramento de conformidade em tempo real
 
-### 🐍 Linguagens de Programação
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+## Linguagem
 
 - Python
 
-### 📚 Bibliotecas
-
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-
-### 🌐 Desenvolvimento
+## Framework
 
 - Streamlit
+
+## Bibliotecas
+
+- Pandas
+
+## Versionamento
+
 - Git
 - GitHub
 
-### ⚖️ Governança e Compliance
+## Governança e Compliance
 
 - LGPD
 - Governança de Dados
@@ -110,319 +161,178 @@ A solução utiliza Business Intelligence, Analytics e visualização de dados p
 - Gestão de Riscos
 - Segurança da Informação
 
-### 🧰 Ferramentas
-
-- Visual Studio Code
-- Jupyter Notebook
-- Power BI Desktop
-
 ---
 
-## ⚙️ Instalação e Execução
+# ⚙️ Instalação
 
-### Pré-requisitos
-
-Antes de iniciar, certifique-se de ter instalado:
-
-- Python 3.10 ou superior
-- Git
-- Power BI Desktop
-- Jupyter Notebook ou JupyterLab
-- Visual Studio Code (opcional)
-
-### 1️⃣ Clonar o Repositório
+## Clonar o Repositório
 
 ```bash
 git clone https://github.com/Maristelacosta/LGPD-Compliance-Analytics.git
+```
+
+```bash
 cd LGPD-Compliance-Analytics
 ```
 
-### 2️⃣ Criar Ambiente Virtual
+## Criar Ambiente Virtual
 
-Windows:
+Windows
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
 ```
 
-Linux/Mac:
+Linux / Mac
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Instalar Dependências
+## Instalar Dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Ou:
+---
+
+# ▶️ Executar a Aplicação
 
 ```bash
-pip install pandas numpy matplotlib seaborn plotly streamlit jupyter openpyxl
+streamlit run app/dashboard.py
 ```
 
-### 4️⃣ Executar os Notebooks
-
-```bash
-jupyter notebook
-```
-
-Abra os arquivos disponíveis na pasta:
-
-```text
-notebooks/
-```
-
-### 5️⃣ Executar a Aplicação Streamlit
-
-```bash
-streamlit run app/app.py
-```
-
-A aplicação será disponibilizada em:
+Aplicação disponível em:
 
 ```text
 http://localhost:8501
 ```
 
-### 6️⃣ Abrir o Dashboard Power BI
-
-Abra o arquivo:
-
-```text
-dashboard/LGPD_Compliance.pbix
-```
-
-utilizando o Power BI Desktop.
-
-### ✅ Verificação da Instalação
-
-Ao concluir a instalação você deverá conseguir:
-
-- Executar os notebooks Python
-- Visualizar gráficos analíticos
-- Abrir o dashboard Power BI
-- Executar a aplicação Streamlit
-- Gerar indicadores de conformidade LGPD
-
 ---
 
-## 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
 ```text
-LGPD-Compliance-Analytics/
+LGPD-Compliance-Analytics
 │
 ├── README.md
 │
-├── data/
+├── app
+│   ├── app.py
+│   ├── dashboard.py
+│   └── dashboard_backup.py
+│
+├── data
 │   ├── titulares.csv
 │   ├── incidentes.csv
-│   ├── solicitacoes.csv
-│   └── sistemas.csv
+│   ├── sistemas.csv
+│   └── solicitacoes.csv
 │
-├── notebooks/
-│   ├── 01_analise_lgpd.ipynb
-│   ├── 02_indicadores.ipynb
-│   └── 03_compliance_score.ipynb
-│
-├── sql/
-│   ├── create_tables.sql
-│   ├── inserts.sql
+├── sql
 │   └── consultas_lgpd.sql
 │
-├── dashboard/
-│   ├── LGPD_Compliance.pbix
-│   └── dashboard_documentacao.md
-│
-├── images/
-│   ├── dashboard-geral.png
-│   ├── incidentes.png
-│   ├── compliance-score.png
-│   └── arquitetura-projeto.png
-│
-├── reports/
-│   ├── relatorio_executivo.pdf
-│   └── relatorio_conformidade.pdf
-│
-└── app/
-    ├── app.py
-    ├── dashboard.py
-    ├── compliance.py
-    └── utils.py
+└── requirements.txt
 ```
 
-### Descrição das Pastas
+---
 
-| Pasta | Descrição |
-|---------|-------------|
-| data | Dados utilizados no projeto |
-| notebooks | Análises exploratórias e estudos dos indicadores |
-| sql | Scripts SQL e consultas analíticas |
-| dashboard | Arquivos do Power BI |
-| images | Imagens e screenshots dos dashboards |
-| reports | Relatórios executivos e documentos |
-| app | Aplicação web em Streamlit |
+# 📋 Dados Utilizados
+
+## Titulares
+
+Informações relacionadas a:
+
+- Nome
+- Tipo de dado
+- Base legal
+- Setor
+
+## Incidentes
+
+Informações relacionadas a:
+
+- Data
+- Tipo de incidente
+- Criticidade
+- Status
+
+## Sistemas
+
+Informações relacionadas a:
+
+- Nome do sistema
+- Status de conformidade
+
+## Solicitações
+
+Informações relacionadas a:
+
+- Data
+- Tipo
+- Status
 
 ---
 
-## 💡 Principais Insights
+# 💡 Principais Insights
 
-### 🔐 Conformidade LGPD
+## Governança
 
-- Identificação das áreas com maior concentração de dados pessoais.
-- Monitoramento das bases legais mais utilizadas.
-- Avaliação do nível de conformidade por departamento.
-- Identificação de oportunidades de melhoria em processos de adequação.
+- Identificação das áreas com maior concentração de dados pessoais
+- Avaliação de conformidade dos sistemas corporativos
+- Monitoramento de bases legais utilizadas
 
-### 🚨 Segurança da Informação
+## Segurança da Informação
 
-- Mapeamento dos tipos de incidentes mais recorrentes.
-- Avaliação da criticidade dos incidentes registrados.
-- Monitoramento da evolução dos eventos de segurança.
-- Identificação de vulnerabilidades operacionais.
+- Mapeamento de incidentes
+- Avaliação de criticidade
+- Acompanhamento de eventos de segurança
 
-### 👥 Gestão de Dados Pessoais
+## Compliance
 
-- Quantificação de dados pessoais e dados sensíveis.
-- Distribuição dos dados por área de negócio.
-- Identificação de riscos relacionados ao excesso de retenção.
-- Avaliação da utilização das bases legais.
-
-### 📋 Direitos dos Titulares
-
-- Volume de solicitações recebidas.
-- Tempo médio de atendimento.
-- Percentual de solicitações concluídas.
-- Identificação de gargalos operacionais.
-
-### 📈 Gestão Executiva
-
-- Monitoramento do Compliance Score.
-- Identificação dos principais riscos.
-- Avaliação contínua da maturidade em governança.
-- Apoio à tomada de decisão baseada em dados.
+- Visão consolidada da conformidade LGPD
+- Monitoramento de obrigações regulatórias
+- Identificação de oportunidades de melhoria
 
 ---
 
-## 📷 Dashboard
+# 🚀 Próximas Evoluções
 
-O painel apresenta uma visão executiva dos indicadores de privacidade, compliance e segurança da informação.
+## Versão 2.0
 
-### Visão Geral
+- Exportação para Excel
+- Exportação para PDF
+- Novos KPIs
+- Dashboard Executivo Avançado
+- Compliance Score Automatizado
 
-- Compliance Score
-- Incidentes de Segurança
-- Dados Pessoais por Setor
-- Bases Legais Utilizadas
-- Solicitações dos Titulares
+## Versão 3.0
 
-### Telas do Dashboard
-
-- Dashboard Executivo
-- Gestão de Incidentes
-- Governança de Dados
-- Indicadores de Conformidade
-- Análise de Riscos
-
-> As imagens do dashboard serão adicionadas conforme a evolução do projeto.
-
----
-
-## 🚀 Próximas Evoluções
-
-### 🤖 Inteligência Artificial
-
-- Geração automática de insights.
-- Resumos executivos automatizados.
-- Identificação automática de riscos.
-- Classificação inteligente de incidentes.
-- Recomendações de mitigação.
-
-### 📊 Business Intelligence
-
-- Ampliação de KPIs.
-- Dashboards específicos por área.
-- Benchmarking entre departamentos.
-- Monitoramento histórico.
-
-### 🔒 Segurança da Informação
-
-- Inclusão de indicadores de cibersegurança.
-- Monitoramento de vulnerabilidades.
-- Gestão de riscos.
-- Dashboards de auditoria.
-
-### ⚖️ Governança e LGPD
-
-- Avaliação automática de conformidade.
-- Gestão de retenção de dados.
-- Monitoramento das bases legais.
-- Mapeamento de dados sensíveis.
-
-### 🌐 Aplicação Web
-
-- Interface Streamlit.
-- Filtros avançados.
-- Relatórios automatizados.
-- Painel em tempo real.
-
-### 📈 Analytics Avançado
-
-- Modelos preditivos.
-- Compliance Score preditivo.
-- Detecção de anomalias.
-- Análise de tendências.
-
----
-
-## 🎯 Roadmap
-
-### ✅ Versão 1.0
-
-- Estrutura inicial do projeto
-- Modelagem dos dados
-- Scripts SQL
-- Dashboard Power BI
-- Indicadores LGPD
-- Documentação
-
-### 🔄 Versão 2.0
-
-- Aplicação Streamlit
-- Relatórios automatizados
-- Compliance Score avançado
-- Visualizações interativas
-- Indicadores de governança
-
-### 🚀 Versão 3.0
-
-- Inteligência Artificial aplicada à conformidade
-- Predição de riscos
+- Inteligência Artificial
 - Geração automática de insights
+- Recomendações de mitigação
 - Monitoramento em tempo real
-- Detecção de anomalias
+- Análise preditiva
 
 ---
 
-## 🎓 Competências Demonstradas
+# 🎓 Competências Demonstradas
 
 ✅ Business Intelligence
 
 ✅ Data Analytics
 
-✅ SQL
-
 ✅ Python
 
-✅ Power BI
+✅ Pandas
 
-✅ Compliance
+✅ Streamlit
 
 ✅ LGPD
+
+✅ Compliance
 
 ✅ Governança de Dados
 
@@ -436,7 +346,7 @@ O painel apresenta uma visão executiva dos indicadores de privacidade, complian
 
 ---
 
-## 👩‍💻 Autora
+# 👩‍💻 Autora
 
 **Maristela Costa**
 
@@ -446,7 +356,7 @@ O painel apresenta uma visão executiva dos indicadores de privacidade, complian
 
 🔐 MBA em Cibersegurança e Proteção de Dados
 
-💻 Analista de Dados | Business Intelligence | Power BI | SQL | Python
+💻 Analista de Dados | Power BI | SQL | Python | Business Intelligence
 
 📌 GitHub: https://github.com/Maristelacosta
 
@@ -454,17 +364,17 @@ O painel apresenta uma visão executiva dos indicadores de privacidade, complian
 
 ---
 
-## 📄 Licença
+# 📄 Licença
 
-Este projeto foi desenvolvido para fins acadêmicos, demonstração de portfólio e aplicação prática de conceitos relacionados a:
+Projeto desenvolvido para fins acadêmicos, demonstração de portfólio e aplicação prática de conceitos relacionados a:
 
 - LGPD
 - Governança de Dados
+- Compliance
 - Business Intelligence
 - Segurança da Informação
-- Compliance
 - Analytics
 
 ---
 
-⭐ **Transformando dados em insights, insights em conhecimento e conhecimento em decisões estratégicas.**
+⭐ Transformando dados em insights, insights em conhecimento e conhecimento em decisões estratégicas.
