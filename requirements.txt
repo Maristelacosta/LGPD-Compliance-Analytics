@@ -1,7 +1,3 @@
-pandas
-numpy
-plotly
 streamlit
-matplotlib
-seaborn
-openpyxl
+pandas
+reportlab
