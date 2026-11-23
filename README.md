@@ -6,6 +6,16 @@ O objetivo é transformar dados relacionados à governança, segurança da infor
 
 ---
 
+## 🏢 Caso de Negócio
+
+A Lei Geral de Proteção de Dados (LGPD) exige que organizações adotem controles para garantir o tratamento adequado de dados pessoais, reduzindo riscos regulatórios, operacionais e reputacionais.
+
+Este projeto simula um ambiente corporativo de governança e privacidade de dados, permitindo monitorar indicadores estratégicos relacionados à conformidade, segurança da informação, gestão de riscos e direitos dos titulares.
+
+A solução utiliza Business Intelligence, Analytics e visualização de dados para fornecer informações que apoiam a tomada de decisão e programas de adequação à LGPD.
+
+---
+
 ## 🎯 Objetivos do Projeto
 
 - Monitorar indicadores de conformidade LGPD.
@@ -18,8 +28,6 @@ O objetivo é transformar dados relacionados à governança, segurança da infor
 ---
 
 ## 📊 Indicadores do Dashboard
-
-O dashboard foi desenvolvido para monitorar métricas relacionadas à privacidade, governança de dados e conformidade com a LGPD.
 
 ### 🔐 Indicadores de Conformidade
 
@@ -64,147 +72,6 @@ O dashboard foi desenvolvido para monitorar métricas relacionadas à privacidad
 
 ## 🛠️ Tecnologias Utilizadas
 
-## ⚙️ Instalação e Execução
-
-### Pré-requisitos
-
-Antes de iniciar, certifique-se de ter instalado:
-
-- Python 3.10 ou superior
-- Git
-- Power BI Desktop
-- Jupyter Notebook ou JupyterLab
-- Visual Studio Code (opcional)
-
----
-
-### 1️⃣ Clonar o Repositório
-
-```bash
-git clone https://github.com/Maristelacosta/LGPD-Compliance-Analytics.git
-```
-
-```bash
-cd LGPD-Compliance-Analytics
-```
-
----
-
-### 2️⃣ Criar Ambiente Virtual
-
-Windows:
-
-```bash
-python -m venv venv
-```
-
-Ativar ambiente virtual:
-
-```bash
-venv\Scripts\activate
-```
-
-Linux/Mac:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-### 3️⃣ Instalar Dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-Caso o arquivo ainda não exista:
-
-```bash
-pip install pandas numpy matplotlib seaborn plotly streamlit jupyter
-```
-
----
-
-### 4️⃣ Executar os Notebooks
-
-Inicie o Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Abra os arquivos da pasta:
-
-```text
-notebooks/
-```
-
-e execute as análises.
-
----
-
-### 5️⃣ Executar a Aplicação Streamlit
-
-Na pasta principal do projeto:
-
-```bash
-streamlit run app/app.py
-```
-
-A aplicação será disponibilizada em:
-
-```text
-http://localhost:8501
-```
-
----
-
-### 6️⃣ Abrir o Dashboard Power BI
-
-Abra o arquivo:
-
-```text
-dashboard/LGPD_Compliance.pbix
-```
-
-no Power BI Desktop.
-
----
-
-### 7️⃣ Estrutura dos Dados
-
-Os datasets utilizados encontram-se na pasta:
-
-```text
-data/
-```
-
-Arquivos:
-
-```text
-titulares.csv
-incidentes.csv
-solicitacoes.csv
-sistemas.csv
-```
-
-Caso deseje utilizar dados próprios, mantenha a mesma estrutura de colunas para garantir compatibilidade com as análises e dashboards.
-
----
-
-### ✅ Verificação da Instalação
-
-Se tudo estiver correto, você deverá conseguir:
-
-- Executar os notebooks Python
-- Visualizar os gráficos analíticos
-- Abrir o dashboard Power BI
-- Executar a aplicação Streamlit
-- Gerar os indicadores de conformidade LGPD
-
-
 ### 📊 Business Intelligence
 
 - Power BI
@@ -220,9 +87,8 @@ Se tudo estiver correto, você deverá conseguir:
 ### 🐍 Linguagens de Programação
 
 - Python
-- SQL
 
-### 📚 Bibliotecas Python
+### 📚 Bibliotecas
 
 - Pandas
 - NumPy
@@ -230,12 +96,13 @@ Se tudo estiver correto, você deverá conseguir:
 - Seaborn
 - Plotly
 
-### 🌐 Desenvolvimento e Visualização
+### 🌐 Desenvolvimento
 
 - Streamlit
+- Git
 - GitHub
 
-### 📋 Governança e Compliance
+### ⚖️ Governança e Compliance
 
 - LGPD
 - Governança de Dados
@@ -243,12 +110,104 @@ Se tudo estiver correto, você deverá conseguir:
 - Gestão de Riscos
 - Segurança da Informação
 
-### ⚙️ Ferramentas de Apoio
+### 🧰 Ferramentas
 
-- Jupyter Notebook
 - Visual Studio Code
+- Jupyter Notebook
+- Power BI Desktop
+
+---
+
+## ⚙️ Instalação e Execução
+
+### Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado:
+
+- Python 3.10 ou superior
 - Git
-- GitHub
+- Power BI Desktop
+- Jupyter Notebook ou JupyterLab
+- Visual Studio Code (opcional)
+
+### 1️⃣ Clonar o Repositório
+
+```bash
+git clone https://github.com/Maristelacosta/LGPD-Compliance-Analytics.git
+cd LGPD-Compliance-Analytics
+```
+
+### 2️⃣ Criar Ambiente Virtual
+
+Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+Linux/Mac:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3️⃣ Instalar Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+Ou:
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly streamlit jupyter openpyxl
+```
+
+### 4️⃣ Executar os Notebooks
+
+```bash
+jupyter notebook
+```
+
+Abra os arquivos disponíveis na pasta:
+
+```text
+notebooks/
+```
+
+### 5️⃣ Executar a Aplicação Streamlit
+
+```bash
+streamlit run app/app.py
+```
+
+A aplicação será disponibilizada em:
+
+```text
+http://localhost:8501
+```
+
+### 6️⃣ Abrir o Dashboard Power BI
+
+Abra o arquivo:
+
+```text
+dashboard/LGPD_Compliance.pbix
+```
+
+utilizando o Power BI Desktop.
+
+### ✅ Verificação da Instalação
+
+Ao concluir a instalação você deverá conseguir:
+
+- Executar os notebooks Python
+- Visualizar gráficos analíticos
+- Abrir o dashboard Power BI
+- Executar a aplicação Streamlit
+- Gerar indicadores de conformidade LGPD
 
 ---
 
@@ -312,8 +271,6 @@ LGPD-Compliance-Analytics/
 
 ## 💡 Principais Insights
 
-A análise dos dados permite identificar padrões relacionados à privacidade, segurança da informação e conformidade regulatória.
-
 ### 🔐 Conformidade LGPD
 
 - Identificação das áreas com maior concentração de dados pessoais.
@@ -363,7 +320,7 @@ O painel apresenta uma visão executiva dos indicadores de privacidade, complian
 - Bases Legais Utilizadas
 - Solicitações dos Titulares
 
-### Exemplos de Telas
+### Telas do Dashboard
 
 - Dashboard Executivo
 - Gestão de Incidentes
@@ -371,59 +328,54 @@ O painel apresenta uma visão executiva dos indicadores de privacidade, complian
 - Indicadores de Conformidade
 - Análise de Riscos
 
-> As capturas de tela serão adicionadas na evolução do projeto.
+> As imagens do dashboard serão adicionadas conforme a evolução do projeto.
 
 ---
 
 ## 🚀 Próximas Evoluções
 
-As próximas versões do projeto contemplam melhorias voltadas para automação, inteligência analítica, governança de dados e monitoramento contínuo da conformidade.
-
 ### 🤖 Inteligência Artificial
 
-- Implementação de geração automática de insights.
-- Resumos executivos automatizados com IA.
-- Identificação automática de riscos de conformidade.
-- Classificação inteligente de incidentes de segurança.
-- Recomendações de mitigação de riscos baseadas em dados.
+- Geração automática de insights.
+- Resumos executivos automatizados.
+- Identificação automática de riscos.
+- Classificação inteligente de incidentes.
+- Recomendações de mitigação.
 
 ### 📊 Business Intelligence
 
-- Ampliação dos indicadores e KPIs estratégicos.
+- Ampliação de KPIs.
 - Dashboards específicos por área.
-- Monitoramento histórico da conformidade.
 - Benchmarking entre departamentos.
+- Monitoramento histórico.
 
 ### 🔒 Segurança da Informação
 
 - Inclusão de indicadores de cibersegurança.
 - Monitoramento de vulnerabilidades.
-- Métricas de gestão de riscos.
-- Dashboards para auditorias e compliance.
-- Acompanhamento de incidentes por criticidade.
+- Gestão de riscos.
+- Dashboards de auditoria.
 
 ### ⚖️ Governança e LGPD
 
 - Avaliação automática de conformidade.
+- Gestão de retenção de dados.
 - Monitoramento das bases legais.
-- Controle de retenção e descarte de dados.
-- Mapeamento de dados sensíveis por processo.
-- Indicadores de maturidade em governança.
+- Mapeamento de dados sensíveis.
 
 ### 🌐 Aplicação Web
 
-- Desenvolvimento de interface em Streamlit.
-- Filtros avançados para análise dos indicadores.
-- Exportação automática de relatórios.
-- Painel executivo em tempo real.
+- Interface Streamlit.
+- Filtros avançados.
+- Relatórios automatizados.
+- Painel em tempo real.
 
 ### 📈 Analytics Avançado
 
-- Modelos preditivos para avaliação de riscos.
-- Análise de tendências de incidentes.
+- Modelos preditivos.
 - Compliance Score preditivo.
 - Detecção de anomalias.
-- Apoio inteligente à tomada de decisão.
+- Análise de tendências.
 
 ---
 
@@ -434,9 +386,9 @@ As próximas versões do projeto contemplam melhorias voltadas para automação,
 - Estrutura inicial do projeto
 - Modelagem dos dados
 - Scripts SQL
-- Indicadores LGPD
 - Dashboard Power BI
-- Documentação do projeto
+- Indicadores LGPD
+- Documentação
 
 ### 🔄 Versão 2.0
 
@@ -488,7 +440,7 @@ As próximas versões do projeto contemplam melhorias voltadas para automação,
 
 **Maristela Costa**
 
-🎓 Sistemas de Informação
+🎓 Bacharel em Sistemas de Informação
 
 📚 MBA em Business Intelligence, Big Data & Analytics
 
@@ -496,11 +448,22 @@ As próximas versões do projeto contemplam melhorias voltadas para automação,
 
 💻 Analista de Dados | Business Intelligence | Power BI | SQL | Python
 
+📌 GitHub: https://github.com/Maristelacosta
+
+📌 LinkedIn: www.linkedin.com/in/maristela-aparecida-costa
+
 ---
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins acadêmicos, portfólio profissional e demonstração de competências em Business Intelligence, Governança de Dados, LGPD e Segurança da Informação.
+Este projeto foi desenvolvido para fins acadêmicos, demonstração de portfólio e aplicação prática de conceitos relacionados a:
+
+- LGPD
+- Governança de Dados
+- Business Intelligence
+- Segurança da Informação
+- Compliance
+- Analytics
 
 ---
 
