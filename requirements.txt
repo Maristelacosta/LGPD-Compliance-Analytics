@@ -1,24 +1,33 @@
 # Dashboard
 streamlit>=1.40.0
 
-# Manipulação de dados
+# Data Analytics
 pandas>=2.2.0
 numpy>=2.1.0
 
-# Visualizações
+# Visualização
 plotly>=5.24.0
 matplotlib>=3.9.0
 seaborn>=0.13.2
 
-# Banco de dados
+# Banco de Dados
 sqlalchemy>=2.0.36
 
-# Arquivos Excel
+# Arquivos
 openpyxl>=3.1.5
 xlsxwriter>=3.2.0
 
-# Exportação PDF
+# PDF
 reportlab>=4.2.0
 
-# Utilitários
+# Machine Learning
+scikit-learn>=1.5.2
+
+# Estatística
+scipy>=1.14.1
+
+# IA e NLP
+joblib>=1.4.2
+
+# Utilidades
 python-dateutil>=2.9.0
