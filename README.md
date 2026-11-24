@@ -4,6 +4,12 @@ Dashboard interativo desenvolvido para monitoramento de indicadores de privacida
 
 O projeto transforma dados relacionados à governança, segurança da informação e compliance em indicadores estratégicos que apoiam a tomada de decisão baseada em dados.
 
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![LGPD](https://img.shields.io/badge/LGPD-Compliance-green)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black)
+
 ---
 
 # 📌 Visão Geral
@@ -35,6 +41,24 @@ A solução foi construída utilizando conceitos de:
 - Privacidade
 - Segurança da Informação
 - Compliance Regulatório
+
+---
+
+# 🏗️ Arquitetura da Solução
+
+```text {preview="false"}
+Arquivos CSV
+      ↓
+Tratamento com Pandas
+      ↓
+Regras de Negócio LGPD
+      ↓
+KPIs de Compliance
+      ↓
+Dashboard Streamlit
+      ↓
+Tomada de Decisão
+```
 
 ---
 
@@ -93,7 +117,7 @@ A solução foi construída utilizando conceitos de:
 - Percentual de Conformidade
 - Sistemas Conformes
 - Sistemas Não Conformes
-- Score Geral de Compliance
+- Compliance Score
 
 ## 👤 Titulares
 
@@ -105,25 +129,39 @@ A solução foi construída utilizando conceitos de:
 
 - Total de Incidentes
 - Incidentes por Criticidade
-- Acompanhamento de Incidentes
+- Status dos Incidentes
 
 ## 📄 Solicitações
 
 - Total de Solicitações
 - Solicitações Pendentes
 - Solicitações Concluídas
+- Performance Operacional
+
+---
+
+# 📌 KPIs Estratégicos
+
+| KPI | Descrição |
+|-------|-----------|
+| Compliance Score | Índice geral de aderência à LGPD |
+| Sistemas Conformes | Quantidade de sistemas adequados |
+| Sistemas Não Conformes | Quantidade de sistemas com riscos |
+| Incidentes Críticos | Eventos classificados como alto impacto |
+| SLA de Atendimento | Atendimento das solicitações no prazo |
+| Taxa de Conformidade | Percentual geral de conformidade |
 
 ---
 
 # 📈 Resultados Obtidos
 
-O dashboard atualmente apresenta:
-
-- 👤 Titulares: 6
-- 🚨 Incidentes: 5
-- 💻 Sistemas: 5
-- 📄 Solicitações: 4
-- ✅ Conformidade Geral: 60%
+| Indicador | Valor |
+|------------|--------|
+| Titulares Cadastrados | 6 |
+| Incidentes Registrados | 5 |
+| Sistemas Monitorados | 5 |
+| Solicitações Registradas | 4 |
+| Compliance Score | 60% |
 
 Além disso, o painel possibilita:
 
@@ -131,6 +169,18 @@ Além disso, o painel possibilita:
 - Visualização gráfica dos indicadores
 - Tabelas interativas
 - Monitoramento de conformidade em tempo real
+
+---
+
+# 🔒 Pilares da LGPD Abordados
+
+- Governança de Dados
+- Transparência
+- Prestação de Contas (Accountability)
+- Gestão de Riscos
+- Segurança da Informação
+- Direitos dos Titulares
+- Monitoramento de Incidentes
 
 ---
 
@@ -147,6 +197,10 @@ Além disso, o painel possibilita:
 ## Bibliotecas
 
 - Pandas
+
+## Banco de Dados
+
+- SQL
 
 ## Versionamento
 
@@ -165,49 +219,49 @@ Além disso, o painel possibilita:
 
 # ⚙️ Instalação
 
-## Clonar o Repositório
+## Clonar Repositório
 
-```bash
+```bash {preview="false"}
 git clone https://github.com/Maristelacosta/LGPD-Compliance-Analytics.git
 ```
 
-```bash
+```bash {preview="false"}
 cd LGPD-Compliance-Analytics
 ```
 
 ## Criar Ambiente Virtual
 
-Windows
+### Windows
 
-```bash
+```bash {preview="false"}
 python -m venv venv
 venv\Scripts\activate
 ```
 
-Linux / Mac
+### Linux / Mac
 
-```bash
+```bash {preview="false"}
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 ## Instalar Dependências
 
-```bash
+```bash {preview="false"}
 pip install -r requirements.txt
 ```
 
 ---
 
-# ▶️ Executar a Aplicação
+# ▶️ Executar Aplicação
 
-```bash
+```bash {preview="false"}
 streamlit run app/dashboard.py
 ```
 
-Aplicação disponível em:
+A aplicação ficará disponível em:
 
-```text
+```text {preview="false"}
 http://localhost:8501
 ```
 
@@ -215,7 +269,7 @@ http://localhost:8501
 
 # 📂 Estrutura do Projeto
 
-```text
+```text {preview="false"}
 LGPD-Compliance-Analytics
 │
 ├── README.md
@@ -243,16 +297,12 @@ LGPD-Compliance-Analytics
 
 ## Titulares
 
-Informações relacionadas a:
-
 - Nome
 - Tipo de dado
 - Base legal
 - Setor
 
 ## Incidentes
-
-Informações relacionadas a:
 
 - Data
 - Tipo de incidente
@@ -261,14 +311,10 @@ Informações relacionadas a:
 
 ## Sistemas
 
-Informações relacionadas a:
-
 - Nome do sistema
 - Status de conformidade
 
 ## Solicitações
-
-Informações relacionadas a:
 
 - Data
 - Tipo
@@ -281,13 +327,13 @@ Informações relacionadas a:
 ## Governança
 
 - Identificação das áreas com maior concentração de dados pessoais
-- Avaliação de conformidade dos sistemas corporativos
-- Monitoramento de bases legais utilizadas
+- Avaliação da conformidade dos sistemas corporativos
+- Monitoramento das bases legais utilizadas
 
 ## Segurança da Informação
 
 - Mapeamento de incidentes
-- Avaliação de criticidade
+- Avaliação da criticidade
 - Acompanhamento de eventos de segurança
 
 ## Compliance
@@ -315,6 +361,21 @@ Informações relacionadas a:
 - Recomendações de mitigação
 - Monitoramento em tempo real
 - Análise preditiva
+
+---
+
+# 🎯 Diferenciais do Projeto
+
+Este projeto demonstra competências práticas em:
+
+- Business Intelligence
+- Data Analytics
+- Governança de Dados
+- Compliance Regulatório
+- Proteção de Dados
+- Visualização Executiva
+- Desenvolvimento Python
+- Storytelling com Dados
 
 ---
 
@@ -358,9 +419,15 @@ Informações relacionadas a:
 
 💻 Analista de Dados | Power BI | SQL | Python | Business Intelligence
 
-📌 GitHub: https://github.com/Maristelacosta
+📌 GitHub: github.com/Maristelacosta
 
-📌 LinkedIn: www.linkedin.com/in/maristela-aparecida-costa
+📌 LinkedIn: linkedin.com/in/maristela-aparecida-costa
+
+---
+
+# 🏷️ Tags
+
+LGPD • Compliance • Governança de Dados • Data Governance • Business Intelligence • Data Analytics • Python • Pandas • Streamlit • SQL • Segurança da Informação • Gestão de Riscos • Privacy Analytics • Dashboard Executivo
 
 ---
 
@@ -374,7 +441,3 @@ Projeto desenvolvido para fins acadêmicos, demonstração de portfólio e aplic
 - Business Intelligence
 - Segurança da Informação
 - Analytics
-
----
-
-⭐ Transformando dados em insights, insights em conhecimento e conhecimento em decisões estratégicas.
