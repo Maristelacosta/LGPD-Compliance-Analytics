@@ -1,3 +1,24 @@
-streamlit
-pandas
-reportlab
+# Dashboard
+streamlit>=1.40.0
+
+# Manipulação de dados
+pandas>=2.2.0
+numpy>=2.1.0
+
+# Visualizações
+plotly>=5.24.0
+matplotlib>=3.9.0
+seaborn>=0.13.2
+
+# Banco de dados
+sqlalchemy>=2.0.36
+
+# Arquivos Excel
+openpyxl>=3.1.5
+xlsxwriter>=3.2.0
+
+# Exportação PDF
+reportlab>=4.2.0
+
+# Utilitários
+python-dateutil>=2.9.0
